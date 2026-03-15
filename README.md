@@ -5,20 +5,7 @@ Your goal is to improve the page and increase the Lighthouse scores.
 
 ---
 
-# Repository Structure
-
-
-seo-demo
-│
-├── assets
-│ ├── peace-lily.svg
-│ ├── plant-shop-hero.svg
-│ ├── pothos.svg
-│ └── snake-plant.svg
-│
-└── starter
-    └── index.html
-
+# Repository Contents
 
 - `starter/index.html` — intentionally poor version to optimize
 - `assets/` — images used in the page

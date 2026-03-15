@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #ffffff;
+        color: #222;
+      } 
+
+      .topbar {
+        background: #f2f2f2;
+        padding: 8px 10px;
+      }
+
+      .topbar a {
+        margin-right: 10px;
+        color: #777;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+      .hero {
+        padding: 20px;
+      }
+
+      .hero-image {
+        width: 100%;
+        height: 520px;
+        object-fit: cover;
+        display: block;
+        background: #d9ead3;
+      }
+
+      .hero-text {
+        margin-top: 20px;
+      }
+
+      .tiny {
+        font-size: 10px;
+        color: #888;
+      }
+
+      .big {
+        font-size: 34px;
+        margin-bottom: 6px;
+      }
+
+      .mid {
+        width: 75%;
+        color: #666;
+        line-height: 1.2;
+      }
+
+      button {
+        margin-top: 14px;
+        padding: 8px 10px;
+        border: none;
+        background: #d4e157;
+        cursor: pointer;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      .cards {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+      }
+
+      .card {
+        width: 32%;
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+
+      .card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        display: block;
+        background: #e8f5e9;
+      }
+
+      .card-title {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      .newsletter {
+        margin-top: 40px;
+        padding: 16px;
+        background: #fafafa;
+      }
+
+      .newsletter input {
+        padding: 8px;
+        width: 180px;
+      }
+
+      .footer {
+        margin-top: 40px;
+        background: #efefef;
+        padding: 20px;
+        color: #777;
+      }
+    </style>
+
+    <script>
+      function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function wasteTime() {
+        let total = 0;
+        for (let i = 0; i < 50000000; i++) {
+          total += i % 10;
+        }
+        console.log('blocking work finished', total);
+      }
+
+      wasteTime();
+    </script>
+  </head>
+  <body>
+    <div class="topbar">
+      <a href="#">click here</a>
+      <a href="#about">more</a>
+      <a href="#contact">read more</a>
+    </div>
+
+    <div class="hero">
+      <img
+        class="hero-image"
+        src="data:image/svg+xml;utf8,
+          <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700'>
+            <rect width='100%25' height='100%25' fill='%23d9ead3'/>
+            <text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle'
+            font-family='Arial' font-size='48' fill='%23445'>plant shop hero image</text>
+          </svg>"
+      />
+      <div class="hero-text">
+        <div class="tiny">welcome</div>
+        <div class="big">Nashville Plant Co.</div>
+        <div class="mid">
+          plants and stuff for homes and offices and gifts and more
+        </div>
+        <button onclick="scrollToSection('products')">see things</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <h3 id="about">about</h3>
+      <p>
+        We sell indoor plants, outdoor plants, gifts, pots, planters, tools,
+        and other items. We are local. We have good products. We have many
+        categories and lots of options for people who want plants.
+      </p>
+
+      <h5>why people like us</h5>
+      <ul>
+        <li>good</li>
+        <li>fast</li>
+        <li>nice</li>
+      </ul>
+
+      <div class="cards" id="products">
+        <div class="card">
+          <img
+            src="data:image/svg+xml;utf8,
+              <svg xmlns='http://www.w3.org/2000/svg' width='400' height='300'>
+                <rect width='100%25' height='100%25' fill='%23c8e6c9'/>
+                <text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle'
+                font-family='Arial' font-size='26' fill='%23333'>snake plant</text>
+              </svg>"
+          />
+          <div class="card-title">Product 1</div>
+          <p>plant</p>
+          <a href="#">click here</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="data:image/svg+xml;utf8,
+              <svg xmlns='http://www.w3.org/2000/svg' width='400' height='300'>
+                <rect width='100%25' height='100%25' fill='%23dcedc8'/>
+                <text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle'
+                font-family='Arial' font-size='26' fill='%23333'>pothos</text>
+              </svg>"
+          />
+          <div class="card-title">Product 2</div>
+          <p>plant</p>
+          <a href="#">learn more</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="data:image/svg+xml;utf8,
+              <svg xmlns='http://www.w3.org/2000/svg' width='400' height='300'>
+                <rect width='100%25' height='100%25' fill='%23e6ee9c'/>
+                <text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle'
+                font-family='Arial' font-size='26' fill='%23333'>peace lily</text>
+              </svg>"
+          />
+          <div class="card-title">Product 3</div>
+          <p>plant</p>
+          <a href="#">more</a>
+        </div>
+      </div>
+
+      <div class="newsletter">
+        <h4>newsletter</h4>
+        <input type="text" placeholder="email" />
+        <button>submit</button>
+      </div>
+
+      <div id="contact" class="footer">
+        <div>123 Green St, Nashville, TN</div>
+        <div>(555) 321-7788</div>
+        <div>Open every day</div>
+      </div>
+    </div>
+  </body>
+</html>

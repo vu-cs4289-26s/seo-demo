@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <rect width="1200" height="700" fill="#e6f2df"/>
+  <rect x="80" y="120" width="1040" height="500" rx="24" fill="#f6fbf4"/>
+  <rect x="130" y="420" width="940" height="120" rx="16" fill="#c79d68"/>
+  <rect x="160" y="220" width="120" height="220" rx="14" fill="#8e6645"/>
+  <ellipse cx="220" cy="220" rx="90" ry="120" fill="#4b8f47"/>
+  <ellipse cx="250" cy="190" rx="70" ry="100" fill="#6bb35f"/>
+  <rect x="350" y="250" width="130" height="190" rx="14" fill="#8e6645"/>
+  <ellipse cx="420" cy="250" rx="95" ry="110" fill="#3f7d44"/>
+  <ellipse cx="450" cy="215" rx="70" ry="90" fill="#5da95b"/>
+  <rect x="560" y="280" width="150" height="160" rx="14" fill="#8e6645"/>
+  <ellipse cx="640" cy="280" rx="105" ry="120" fill="#467f3f"/>
+  <ellipse cx="675" cy="245" rx="75" ry="90" fill="#71b55d"/>
+  <rect x="790" y="240" width="140" height="200" rx="14" fill="#8e6645"/>
+  <ellipse cx="860" cy="240" rx="100" ry="120" fill="#477c45"/>
+  <ellipse cx="900" cy="205" rx="70" ry="90" fill="#68af66"/>
+  <rect x="980" y="300" width="80" height="140" rx="12" fill="#8e6645"/>
+  <ellipse cx="1020" cy="300" rx="70" ry="90" fill="#4c8d4a"/>
+  <text x="600" y="610" font-family="Arial, sans-serif" font-size="46" text-anchor="middle" fill="#335f31">Nashville Plant Co.</text>
+</svg>

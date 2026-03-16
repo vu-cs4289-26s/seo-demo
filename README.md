@@ -29,8 +29,11 @@ cd your-path/seo-demo
 
 From the repository root (seo-demo) run:
 
-
+mac/os:
 python3 -m http.server 8000
+
+windows:
+python -m http.server 8000
 
 
 This starts a simple local web server.

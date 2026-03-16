@@ -22,12 +22,12 @@ Run the following commands in your terminal:
 
 git clone https://github.com/vu-cs4289-26s/seo-demo.git
 
-cd your-path/seo_lighthouse_demo
+cd your-path/seo-demo
 
 
 ## 2. Start a local server
 
-From the repository root (seo_lighthouse_demo) run:
+From the repository root (seo-demo) run:
 
 
 python3 -m http.server 8000

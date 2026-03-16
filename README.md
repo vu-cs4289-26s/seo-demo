@@ -8,6 +8,7 @@ Your goal is to improve the page and increase the Lighthouse scores.
 # Repository Contents
 
 - `starter/index.html` — intentionally poor version to optimize
+- `solution/index.html` — example of an optimized version that has a high SEO score
 - `assets/` — images used in the page
 
 ---
@@ -21,12 +22,12 @@ Run the following commands in your terminal:
 
 git clone https://github.com/vu-cs4289-26s/seo-demo.git
 
-cd your-path/seo-demo
+cd your-path/seo_lighthouse_demo
 
 
 ## 2. Start a local server
 
-From the repository root (seo-demo) run:
+From the repository root (seo_lighthouse_demo) run:
 
 
 python3 -m http.server 8000
@@ -36,7 +37,7 @@ This starts a simple local web server.
 
 ## 3. Open the webpage
 
-Open this URL in **Chrome**:
+Open this URL in an incognito window in **Chrome**:
 
 
 http://localhost:8000/starter/index.html

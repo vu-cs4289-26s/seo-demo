@@ -2,8 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Home</title>
-
     <style>
       body {
         margin: 0;
@@ -17,11 +15,11 @@
         padding: 8px 10px;
       }
 
-      .topbar a {
+      .topbar span {
         margin-right: 10px;
         color: #777;
-        text-decoration: none;
         font-size: 12px;
+        cursor: pointer;
       }
 
       .hero {
@@ -109,56 +107,33 @@
         color: #777;
       }
     </style>
-
-    <script>
-      function scrollToSection(id) {
-        document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-      }
-
-      function wasteTime() {
-        let total = 0;
-        for (let i = 0; i < 50000000; i++) {
-          total += i % 10;
-        }
-        console.log("blocking work finished", total);
-      }
-
-      wasteTime();
-    </script>
   </head>
-
   <body>
     <div class="topbar">
-      <a href="#">click here</a>
-      <a href="#about">more</a>
-      <a href="#contact">read more</a>
+      <span>here</span>
+      <span>more</span>
+      <span>info</span>
     </div>
 
     <div class="hero">
-      <img class="hero-image" src="../assets/plant-shop-hero.svg" />
-
+      <img src="../assets/plant-shop-hero.svg" class="hero-image" />
       <div class="hero-text">
         <div class="tiny">welcome</div>
         <div class="big">Nashville Plant Co.</div>
-        <div class="mid">
-          plants and stuff for homes and offices and gifts and more
-        </div>
-
-        <button onclick="scrollToSection('products')">see things</button>
+        <div class="mid">plants and stuff for homes and offices and gifts and more</div>
+        <button>see things</button>
       </div>
     </div>
 
     <div class="content">
-      <h3 id="about">about</h3>
-
+      <h5 id="about">about</h5>
       <p>
-        We sell indoor plants, outdoor plants, gifts, pots, planters, tools,
-        and other items. We are local. We have good products. We have many
-        categories and lots of options for people who want plants.
+        We sell indoor plants, outdoor plants, gifts, pots, planters, tools, and other items.
+        We are local. We have good products. We have many categories and lots of options for
+        people who want plants.
       </p>
 
-      <h5>why people like us</h5>
-
+      <h6>why people like us</h6>
       <ul>
         <li>good</li>
         <li>fast</li>
@@ -168,48 +143,35 @@
       <div class="cards" id="products">
         <div class="card">
           <img src="../assets/snake-plant.svg" />
-
           <div class="card-title">Product 1</div>
-
           <p>plant</p>
-
-          <a href="#">click here</a>
+          <a href="#">here</a>
         </div>
 
         <div class="card">
           <img src="../assets/pothos.svg" />
-
           <div class="card-title">Product 2</div>
-
           <p>plant</p>
-
-          <a href="#">learn more</a>
+          <a href="#">link</a>
         </div>
 
         <div class="card">
           <img src="../assets/peace-lily.svg" />
-
           <div class="card-title">Product 3</div>
-
           <p>plant</p>
-
           <a href="#">more</a>
         </div>
       </div>
 
       <div class="newsletter">
-        <h4>newsletter</h4>
-
+        <h6>newsletter</h6>
         <input type="text" placeholder="email" />
-
         <button>submit</button>
       </div>
 
       <div id="contact" class="footer">
         <div>123 Green St, Nashville, TN</div>
-
         <div>(555) 321-7788</div>
-
         <div>Open every day</div>
       </div>
     </div>

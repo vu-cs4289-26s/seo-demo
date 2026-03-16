@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nashville Plant Co. | Indoor Plants, Planters, and Plant Gifts</title>
+    <meta
+      name="description"
+      content="Shop indoor plants, beginner-friendly houseplants, modern planters, and plant gifts from Nashville Plant Co. in Nashville, Tennessee."
+    />
+    <link rel="canonical" href="https://example.com/" />
+
+    <meta property="og:title" content="Nashville Plant Co. | Indoor Plants, Planters, and Plant Gifts" />
+    <meta
+      property="og:description"
+      content="Discover indoor plants, low-maintenance houseplants, planters, and local gift options from Nashville Plant Co."
+    />
+    <meta property="og:type" content="website" />
+
+    <style>
+      :root {
+        --text: #1c2d1f;
+        --muted: #4e5f52;
+        --surface: #f7faf6;
+        --border: #d8e4d7;
+        --accent: #5f8f3a;
+        --accent-dark: #355420;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #ffffff;
+        color: var(--text);
+        line-height: 1.55;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      a {
+        color: var(--accent-dark);
+      }
+
+      a:hover,
+      a:focus {
+        text-decoration: underline;
+      }
+
+      .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: 0;
+        background: #ffffff;
+        color: #000000;
+        padding: 10px 14px;
+        border: 2px solid #000000;
+        z-index: 1000;
+      }
+
+      .skip-link:focus {
+        left: 12px;
+        top: 12px;
+      }
+
+      .site-header {
+        background: #ffffff;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .topbar {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 16px 20px;
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+
+      .topbar a {
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .hero,
+      .content-section,
+      .footer {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 28px 20px;
+      }
+
+      .hero-image {
+        width: 100%;
+        height: auto;
+        border-radius: 18px;
+      }
+
+      .eyebrow {
+        margin: 18px 0 8px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0 0 12px;
+        line-height: 1.15;
+      }
+
+      h1 {
+        font-size: 2.35rem;
+      }
+
+      h2 {
+        font-size: 1.7rem;
+      }
+
+      h3 {
+        font-size: 1.15rem;
+      }
+
+      .lead {
+        max-width: 62ch;
+        color: var(--muted);
+        margin-bottom: 18px;
+      }
+
+      .button-link,
+      button {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 12px 18px;
+        border: none;
+        border-radius: 10px;
+        background: var(--accent);
+        color: #ffffff;
+        font-weight: 700;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .button-link:hover,
+      .button-link:focus,
+      button:hover,
+      button:focus {
+        background: var(--accent-dark);
+      }
+
+      .content-section p,
+      .content-section li,
+      .footer p,
+      label {
+        color: var(--muted);
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        margin-top: 20px;
+      }
+
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 14px;
+        background: var(--surface);
+      }
+
+      .card-title {
+        font-size: 1.15rem;
+        font-weight: 700;
+        margin-top: 12px;
+        margin-bottom: 8px;
+        color: var(--text);
+      }
+
+      .newsletter {
+        background: var(--surface);
+        border-radius: 18px;
+      }
+
+      .newsletter-row {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 8px;
+      }
+
+      .newsletter input {
+        flex: 1;
+        min-width: 260px;
+        padding: 12px;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+      }
+
+      .footer {
+        padding-bottom: 48px;
+      }
+
+      @media (max-width: 800px) {
+        .cards {
+          grid-template-columns: 1fr;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "GardenStore",
+        "name": "Nashville Plant Co.",
+        "url": "https://example.com/",
+        "telephone": "+1-555-321-7788",
+        "description": "Local Nashville plant shop offering indoor plants, planters, and plant gifts.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Green St",
+          "addressLocality": "Nashville",
+          "addressRegion": "TN",
+          "addressCountry": "US"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="topbar" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#products">Popular Plants</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero">
+        <img
+          src="../assets/plant-shop-hero.svg"
+          class="hero-image"
+          alt="A bright plant shop display with leafy houseplants and planters"
+          width="1200"
+          height="700"
+        />
+        <div class="hero-text">
+          <p class="eyebrow">Local plant shop in Nashville</p>
+          <h1>Nashville Plant Co.</h1>
+          <p class="lead">
+            Indoor plants, beginner-friendly houseplants, modern planters, and thoughtful green gifts
+            for homes and offices.
+          </p>
+          <a class="button-link" href="#products">Browse popular plants</a>
+        </div>
+      </section>
+
+      <section class="content-section" id="about">
+        <h2>Why customers choose us</h2>
+        <p>
+          We help shoppers find healthy indoor plants, easy-care options, and stylish planters for
+          home and office spaces. Clear content structure and descriptive labels make the page easier
+          for both users and search engines to understand.
+        </p>
+        <ul>
+          <li>Beginner-friendly houseplants with care guidance</li>
+          <li>Modern pots and planters for home and office decor</li>
+          <li>Gift-friendly plant bundles and local pickup options</li>
+        </ul>
+      </section>
+
+      <section class="content-section" id="products">
+        <h2>Popular indoor plants</h2>
+        <div class="cards">
+          <article class="card">
+            <img
+              src="../assets/snake-plant.svg"
+              alt="Snake plant in a white ceramic planter"
+              width="400"
+              height="300"
+            />
+            <h3 class="card-title">Snake Plant</h3>
+            <p>Low-maintenance houseplant for beginners and lower-light rooms.</p>
+            <a href="#contact">Ask about snake plants</a>
+          </article>
+
+          <article class="card">
+            <img
+              src="../assets/pothos.svg"
+              alt="Golden pothos trailing from a shelf planter"
+              width="400"
+              height="300"
+            />
+            <h3 class="card-title">Pothos</h3>
+            <p>Fast-growing trailing plant that works well in shelves and offices.</p>
+            <a href="#contact">Ask about pothos</a>
+          </article>
+
+          <article class="card">
+            <img
+              src="../assets/peace-lily.svg"
+              alt="Peace lily with glossy leaves and white blooms"
+              width="400"
+              height="300"
+            />
+            <h3 class="card-title">Peace Lily</h3>
+            <p>Elegant flowering plant with a polished look for homes and offices.</p>
+            <a href="#contact">Ask about peace lilies</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section newsletter" id="newsletter">
+        <h2>Get plant care tips</h2>
+        <p>Join our newsletter for care reminders, restock alerts, and gift ideas.</p>
+        <label for="email">Email address</label>
+        <div class="newsletter-row">
+          <input id="email" type="email" placeholder="name@example.com" />
+          <button type="button">Subscribe</button>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <h2>Visit Nashville Plant Co.</h2>
+      <p>123 Green St, Nashville, TN</p>
+      <p>(555) 321-7788</p>
+      <p>Open daily for plant shopping, gifting, and pickup.</p>
+    </footer>
+  </body>
+</html>
